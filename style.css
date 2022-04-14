@@ -1,0 +1,110 @@
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    background: url(img/pexels-cátia-matos-1072179.jpg);
+    color: beige;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+
+
+}
+.left img{
+    width: 136px;
+    filter: invert(100%);
+}
+.left div{
+    align-items: center;
+    font-size: 26px;
+    text-align: center;
+}
+.right{
+    /* border: 2px solid rgb(140, 200, 10); */
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+
+}
+.mid{
+    display: block;
+    width: 46%;
+    margin: 20px auto;
+
+    /* border: 2px solid rgb(242, 218, 218); */
+   
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    font-size: 25px;
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+.navbar li a:hover,  .navbar li a.active{
+
+    text-decoration: underline;
+    color: gray;
+}
+
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'baloo bhai',cursive;
+
+}
+.btn:hover{
+    background-color: rgb(152, 35, 35);
+
+}
+.container{
+
+    border: 2px solid rgb(228, 241, 228);
+    margin: 120px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+
+
+
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    font-family: 'baloo bhai',cursive;
+}
+.container h1{
+    text-align: center;
+
+
+}
+.container button {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+
+}
